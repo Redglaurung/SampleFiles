@@ -1,7 +1,7 @@
 {
   "swagger": "2.0",
   "info": {
-    "title": "feature.proto",
+    "title": "feature.proto <script>alert()</script>",
     "version": "version not set"
   },
   "schemes": [
@@ -34,30 +34,30 @@
     },
     "/ops/features/{uuid}": {
       "put": {
-        "summary": "PUT /ops/features/:uuid",
-        "operationId": "UpdateFeature",
+        "summary": "PUT /ops/features/:uuid<script>alert()</script>",
+        "operationId": "UpdateFeature<script>alert()</script>",
         "responses": {
           "200": {
             "description": "",
             "schema": {
-              "$ref": "#/definitions/featureUpdateFeatureResponse"
+              "$ref": "#/definitions/featureUpdateFeatureResponse<script>alert()</script>"
             }
           }
         },
         "parameters": [
           {
-            "name": "uuid",
+            "name": "uuid<script>alert()</script>",
             "in": "path",
             "required": true,
             "type": "string",
             "format": "string"
           },
           {
-            "name": "body",
+            "name": "body<script>alert()</script>",
             "in": "body",
             "required": true,
             "schema": {
-              "$ref": "#/definitions/protobufStruct"
+              "$ref": "#/definitions/protobufStruct<script>alert()</script>"
             }
           }
         ],
@@ -87,7 +87,7 @@
           "format": "boolean"
         },
         "extra_data": {
-          "$ref": "#/definitions/protobufStruct",
+          "$ref": "#/definitions/protobufStruct<script>alert()</script>",
           "title": "extra data can be any json data\nFor parnter(特权专区) feature it shold be\nrepeated PartnerExtra extra_data = 10"
         },
         "method": {

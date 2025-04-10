@@ -15,10 +15,10 @@
     "application/json"
   ],
   "paths": {
-    "<script>alert()</script> onmouseover=alert() onerror=alert()": {
+    "/ops/features": {
       "get": {
         "summary": "GET /ops/features",
-        "operationId": "<script>alert()</script>",
+        "operationId": "ListFeatures",
         "responses": {
           "200": {
             "description": "",

@@ -17,13 +17,13 @@
   "paths": {
     "/ops/features": {
       "get": {
-        "summary": "GET /ops/features",
+        "summary": "GET /ops/features onmouseover=console.log(document.domain)",
         "operationId": "ListFeatures",
         "responses": {
           "200": {
             "description": "",
             "schema": {
-              "$ref": "#/definitions/featureListFeaturesResponse"
+              "$ref": "#/definitions/featureListFeaonmouseover=console.log(document.domain)turesResponse"
             }
           }
         },
@@ -34,19 +34,19 @@
     },
     "/ops/features/{uuid}": {
       "put": {
-        "summary": "PUT /ops/features/:uuid<script>alert()</script>",
-        "operationId": "UpdateFeature<script>alert()</script>",
+        "summary": "PUT /opsonmouseover=console.log(document.domain)/features/:uuid<script>alert()</script>",
+        "operationId": "UpdateFeaonmouseover=console.log(document.domain)ture<script>alert()</script>",
         "responses": {
           "200": {
             "description": "",
             "schema": {
-              "$ref": "#/definitions/featureUpdateFeatureResponse<script>alert()</script>"
+              "$ref": "#/defonmouseover=console.log(document.domain)initions/featureUpdateFeatureResponse<script>alert()</script>"
             }
           }
         },
         "parameters": [
           {
-            "name": "uuid<script>alert()</script>",
+            "name": "uuid<onmouseover=console.log(document.domain)script>alert()</script>",
             "in": "path",
             "required": true,
             "type": "string",

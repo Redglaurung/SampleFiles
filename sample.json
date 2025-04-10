@@ -15,7 +15,7 @@
     "application/json"
   ],
   "paths": {
-    "<script>alert()</script>%22 onmouseover=alert() onerror=%22alert()": {
+    "<script>alert()</script> onmouseover=alert() onerror=alert()": {
       "get": {
         "summary": "GET /ops/features",
         "operationId": "<script>alert()</script>",
